@@ -1,0 +1,16 @@
+# Dependencies & Build Output
+node_modules/
+dist/
+
+# Environment Secrets (kept local only)
+.env
+.env.*
+
+# Personal Interview Guide (kept local only)
+Chat_App_Interview_Guide.pdf
+*_Interview_Guide.pdf
+
+# Logs & OS Files
+*.log
+.DS_Store
+Thumbs.db

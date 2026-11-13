@@ -1,0 +1,31 @@
+{
+  "name": "exactspace-team-chat-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Real-time ReactJS Team Chat Application with Socket.io, @Mentions, Emoji Picker, and Multi-Channel Support",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server/index.js",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.10",
+    "express": "^4.21.2",
+    "lucide-react": "^0.468.0",
+    "mongoose": "^9.12.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.3"
+  }
+}
